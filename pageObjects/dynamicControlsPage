@@ -1,0 +1,13 @@
+const { I } = inject();
+
+module.exports = {
+  pageURL: "/dynamic_controls",
+  pageTitle: "Dynamic Controls",
+
+  locators: {
+    message: "#message",
+    loadingBar: "#loading",
+    disabledInput: '//*[@id="input-example"]/input[@disabled = ""]',
+    enabledInput: '//*[@id="input-example"]/input'
+  }
+}

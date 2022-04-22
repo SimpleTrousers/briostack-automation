@@ -1,0 +1,11 @@
+const { I } = inject();
+
+module.exports = {
+  pageURL: "/add_remove_elements/",
+  pageTitle: "Add/Remove Elements",
+
+  locators: {
+    addedElementsOrDeleteButtons: "#elements .added-manually",
+
+  }
+}
